@@ -3,7 +3,6 @@ import random
 number = random.randint(-10000, 10000)
 
 last_digit = str(number)[-1]
-d = int(last_digit)
 
 if number < 0:
     d = (int(last_digit) * -1)
