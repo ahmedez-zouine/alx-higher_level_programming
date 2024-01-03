@@ -7,7 +7,7 @@ d = int(last_digit)
 
 if number < 0:
     d = (int(last_digit) * -1)
-else:
+elif number >= 0:
     d = int(last_digit)
 if d == 0:
     print(f"Last digit of {number} is {d} and is 0")
