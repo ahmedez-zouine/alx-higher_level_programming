@@ -7,5 +7,5 @@ def safe_print_list(my_list=[], end=0):
             i++
         except IndexError:
             break
-        print("")
-        return i
+    print("")
+    return i
