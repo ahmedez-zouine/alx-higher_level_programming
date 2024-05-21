@@ -1,2 +1,3 @@
--- This Script i will use form print infos about table 
-EXPLAIN SELECT * FROM first_table
+-- This Script i will use form print infos about table
+DESCRIBE first_table
+
