@@ -1,2 +1,2 @@
 -- This Script use the list All the REcord ...
-SELECT name, score FROM second_table where name != NULL GROUP BY score DESC;
+SELECT name, score FROM second_table where name != NULL ORDER BY score DESC;
