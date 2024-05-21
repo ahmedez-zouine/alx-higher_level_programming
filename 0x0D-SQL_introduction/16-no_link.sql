@@ -1,5 +1,6 @@
--- Displays the average temperature (in Fahrenheit) by city ordered by descending temperature.
-SELECT `city`, AVG(`value`) AS `avg_temp`
-FROM `temperatures`
-GROUP BY `city`
-ORDER BY `avg_temp` DESC;
+-- Lists all records of the table second_table having a name value in my MySQL server.
+-- Records are ordered by descending score.
+SELECT `score`, `name`
+FROM `second_table`
+WHERE `name` != ""
+ORDER BY `score` DESC
