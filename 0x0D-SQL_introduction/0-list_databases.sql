@@ -1,0 +1,2 @@
+-- Create new DATABASE 
+SHOW DATABASES;
